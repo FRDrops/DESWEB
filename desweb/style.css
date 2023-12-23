@@ -1,0 +1,43 @@
+/*Navbar*/
+.nav-link {
+  margin-right: 30px;
+}
+
+/*Btn*/
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+/*Navbar desktop*/
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #16409E;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+
+  }
+}
+.footer {
+  background-color: #16409E;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('img/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#galeri {
+  background-color: #7797DF;
+}
